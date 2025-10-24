@@ -1,1 +1,161 @@
+body {
+    background-color: rgb(5, 5, 39);
+    color: white;
+    text-align: center;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+
+.contenedor {
+    margin-top: 10vh;
+
+}
+
+h1 {
+    font-size: 8vh;
+    font-family: cursive;
+    transition: 0.8s;
+}
+
+p {
+    font-size: 4vh;
+    font-family: cursive;
+    color: springgreen;
+    transition: 0.8s;
+}
+
+.contenedor_dos {
+    width: 90vh;
+    height: 50vh;
+    background-color: aqua;
+    position: relative;
+    left: 57vh;
+    top: 15vh;
+    border-radius: 2vh;
+    border: 0.5vh solid white;
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
+
+#text-input {
+    height: 8vh;
+    text-align: center;
+    font-family: cursive;
+    padding: 6vh;
+    position: relative;
+    top: 6vh;
+    width: 60vh;
+    border-radius: 2vh;
+    outline: none;
+    border: none;
+}
+
+#text-input:active {
+   border: 0.5vh solid yellow;
+   outline: auto yellow;
+}
+
+#text-input:hover {
+    border: 0.5vh solid rgb(52, 216, 19);
+    box-shadow: 0.5vh 0.5vh 2vh;
+}
+
+@keyframes sombras {
+   
+    25% {
+        box-shadow: 0.5vh 0.5vh 2vh rgb(253, 75, 173);
+    }
+
+    50% {
+        box-shadow: 0.5vh 0.5vh 2vh blue;
+    }
+
+    75% {
+        box-shadow: 0.5vh 0.5vh 2vh rgb(5, 88, 5);
+    }
+}
+
+
+#check-btn {
+    height: 12.7vh;
+    width: 20vh;
+    position: relative;
+    top: 6vh;
+    border: 0.5vh solid rgb(16, 163, 41);
+    border-radius: 2vh;
+    background-color: white;
+    font-family: cursive;
+    font-size: 3vh;
+    color: rgb(121, 136, 175);
+    animation: sombras infinite linear 5s;
+    box-shadow: 0.5vh 0.5vh 2vh black;
+    transition: 0.1s;
+    
+}
+
+#check-btn:active {
+    background-color: rgb(222, 239, 250);
+    transform: translate(0.1em, 0.1em);
+}
+
+#check-btn:hover {
+    border: 0.5vh solid rgb(160, 30, 192);
+}
+
+h1:hover {
+    transform: scale(1.2, 1.2);
+}
+
+p:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+.contenedor_tres {
+    height: 25vh;
+    width: 82.5vh;
+    background-color: white;
+    position: relative;
+    top: -17vh;
+    left: 61vh;
+    z-index: 999;
+    overflow: visible;
+    border-radius: 2vh;
+}
+
+#palindrome_explanation {
+    font-size: 3.5vh;
+    position: relative;
+    top: 2.5vh;
+    color: rgb(39, 58, 121);
+}
+
+#palindrome_explanation:hover {
+    transform: none;
+}
+
+.cartel {
+    height: 25vh;
+    background-color: rgb(129, 230, 171);
+    width: 80vh;
+    position: relative;
+    left: 62vh;
+    top: -78vh;
+    z-index: -1;
+    display: none;
+    border: 0.5vh solid white;
+    border-radius: 2vh;
+    box-shadow: 0.1vh 0.1vh 3vh white;
+}
+
+#result {
+    position: relative;
+    top: 0.5vh;
+    font-size: 3.5vh;
+    color: rgb(143, 66, 194);
+    
+}
