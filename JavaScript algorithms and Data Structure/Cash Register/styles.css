@@ -1,1 +1,138 @@
 
+#encabezado {
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    font-family: cursive;
+    font-size: 3.5vh;
+    color: rgb(17, 24, 90);
+    text-shadow: 0.1vh 0.1vh 1vh white;
+    animation: cambiodeColor 2s linear infinite;
+    
+}
+
+#caja-registradora7 {
+    height: 65vh;
+    width: 20vw;
+    background-color: white;
+    position: relative;
+    top: -146vh;
+    left: 150vh;
+    border-radius: 2vh;
+}
+
+#caja-registradora8 {
+    height: 15vh;
+    width: 20vw;
+    background-color: rgb(58, 35, 141);
+    position: relative;
+    top: -216vh;
+    left: 150vh;
+    border-top-right-radius: 2vh;
+    border-top-left-radius: 2vh;
+}
+
+#caja-registradora8 h1 {
+    text-align: center;
+    font-size: 3.8vh;
+    position: relative;
+    top: 5vh;
+    font-family: cursive;
+    color: white;
+}
+
+#caja-registradora7 p {
+    position: relative;
+    top: 15.1vh;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.3vh;
+}
+
+@keyframes cambiodeColor2 {
+    30% {
+        border: 0.5vh solid rgb(50, 195, 206);
+    }
+    50% {
+        border: 0.5vh solid rgb(58, 55, 223);
+    }
+    70% {
+        border: 0.5vh solid rgb(51, 6, 41);
+    }
+}
+
+#cash-customer {
+    position: relative;
+    top: -257vh;
+    left: 149.4vh;
+    height: 5vh;
+    width: 41.7vh;
+    border-radius: 1vh;
+    border: 0.5vh solid rgb(103, 30, 172);
+    animation: cambiodeColor2 2s linear infinite;
+}
+
+#purchase {
+    position: relative;
+    top: -246vh;
+    left: 105.6vh;
+    height: 10vh;
+    width: 43vh;
+    border-radius: 1vh;
+    border: 0.5vh solid rgb(103, 30, 172);
+    animation: cambiodeColor2 2s linear infinite;
+    font-family: cursive;
+    background-color: rgb(199, 219, 219);
+    font-size: 3vh;
+    color: rgb(63, 35, 128);
+}
+
+#purchase:hover {
+    background-color: rgb(76, 201, 169);
+}
+
+#purchase:active {
+    background-color: rgb(56, 152, 236);
+}
+
+#header-customer {
+    color: white;
+    position: relative;
+    left: 146vh;
+    top: -276vh;
+    font-size: 2vh;
+    font-family: cursive;
+}
+
+#total {
+    transform: rotate(180deg);
+    position: relative;
+    left: -2vh;
+    top: 35vh;
+    font-size: 5vh;
+    font-family: cursive;
+}
+
+#caja-registradora9 {
+    height: 00.5vh;
+    width: 83.8vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -253vh;
+    left: 30vh;
+    z-index: 1;
+    transform: rotate(-181deg);
+}
+
+#result {
+    display: none;
+    position: relative;
+    top: 8.5vh;
+    left: -2vh;
+    z-index: 1;
+    transform: rotate(-180deg);
+    font-size: 2.8vh;
+    font-family: cursive;
+}
+
+
